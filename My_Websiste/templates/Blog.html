@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Blog post page{% endblock %}</title>
+    <!-- <link rel="shortcut icon" type="image/png" href="images/my_logo3.jpg" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="stylesheet" href="../static/styles.css">
+    <title>{% block title %} Blogs {% endblock %}</title>
+</head>
+
+<body>
+<!-- custom cursors -->
+ <div id="menu-bars" class="fas fa-bars"></div>
+
+  <!-- header section starts -->
+  <header>
+           <div class="user">
+          <img src="../static/images/Aaalex.png" alt="">
+          <a href="#" class="logo"><span>Alem</span>Ayehu</a>
+      </div>
+  
+      <nav class="navbar">
+          <a href="./layout.html#home">home</a>
+          <a href="#about">about</a>
+          <a href="#service">service</a>
+          <a href="#experience">experience</a>
+          <a href="#portfolio">portfolio</a>
+          <a href="#contact">contact</a>
+      </nav>
+  
+      <div class="social_icon">
+          <!-- <span><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></span> -->
+          <span><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></span>
+          <span><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></span>
+          <span><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></span>
+          <span><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></span>
+      </div>
+  </header>
+    <!-- header section ends     -->
+
+    <div class="blog-container">
+        <div class="blog">
+          <h3>Python</h3>
+          <p class="posted-text"> 
+            Python is a versatile, high-level programming language known for its simplicity and readability. Created by Guido van Rossum and first released in 1991, Python has gained widespread popularity and has become one of the most widely used programming languages worldwide.
+            Python gets its name from the British comedy group Monty Python, not the snake. Guido van Rossum, a fan of Monty Python's Flying Circus, chose the name to make it more memorable and fun.
+            in Zoology Pythons are a group of large non-venomous snakes found in various parts of the world. The choice of the name Python for the programming language was a play on the idea that programming languages can "swallow" and process large amounts of code.
+            Key Milestones:
+            •	Guido van Rossum started working on Python in the late 1980s, and the first version of Python, Python 0.9.0, was released in February 1991.
+            •	In 2000, Python 2.0 was released, which introduced features like list comprehensions and a garbage collection system.
+            •	The release of Python 3.0 in 2008 marked a significant milestone, bringing improvements, such as better Unicode support and a cleaner syntax. However, Python 3 was not backward compatible with Python 2, leading to a period of coexistence and gradual migration for developers.
+            •	Python has a vibrant and active community of developers who contribute to its growth and development. The Python Software Foundation (PSF) was established in 2001 to support and promote the language.
+            Python's popularity has surged in recent years. It has consistently ranked among the top programming languages in various indices, such as the TIOBE Index and the Stack Overflow Developer Survey. Python's versatility, simplicity, and extensive libraries have made it popular not only among professional developers but also among beginners, scientists, data analysts, and educators.
+            Python has found its way into social life in unexpected ways. Python coding clubs, meetups, and conferences have become popular social gatherings for Python enthusiasts. Additionally, there are instances of people naming their pets, children, and even ships after Python programming concepts.
+            Python's journey from a personal project to a widely adopted programming language has been remarkable. Its simplicity, readability, and extensive libraries have made it a go-to choose for developers across various industries. Python's influence extends beyond programming, leaving a mark in zoology, other professions, and even social life.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        
+        <div class="blog">
+          <h2 class="blog-title">Java Programming Language </h2>
+          <p class="posted-text">
+            Java is a popular object-oriented programming language known for its platform independence and wide range of applications. Developed by James Gosling and his team at Sun Microsystems (later acquired by Oracle Corporation), Java has become one of the most widely used programming languages since its release in 1995.
+            The name Java was chosen by James Gosling and his team. Initially, they were looking for a name related to dynamic and revolutionary concepts. The name "Java" was inspired by the love for coffee, particularly the coffee beans from Java Island in Indonesia. It also pays homage to the fact that they enjoyed drinking coffee during the development process.
+            Java in Zoology: Similar to Python, the name Java has connections to the animal kingdom. Java is also the name of an Indonesian island known for its rich biodiversity, including various species of birds, primates, and reptiles. The choice of the name Java for the programming language does not have a direct correlation with zoology, but it shares the name with the island's wildlife.
+            One of Java's significant features is its platform independence. Java programs are compiled into bytecode, which can run on any system with a Java Virtual Machine (JVM). This "write once, run anywhere" capability has made Java popular for developing applications that can be deployed across different operating systems and devices.
+            Java has consistently been one of the most widely used programming languages. It has a vast ecosystem of libraries, frameworks, and tools that support various domains, including web development, enterprise applications, mobile apps, and more. Java's popularity is also attributed to its strong community support, extensive documentation, and a rich set of resources available for developers.
+            Key Milestones:
+            •  The initial development of Java began in 1991 as a project called "Oak" for use in interactive television. However, the project evolved to target a broader range of platforms and was eventually renamed Java.
+            •  In 1995, Sun Microsystems released Java 1.0, making it freely available to the public. This release marked the beginning of Java's widespread adoption.
+            •  Over the years, Java has undergone several major updates and releases. Notable versions include Java 2 (renamed as Java SE), Java EE (Enterprise Edition), and Java ME (Micro Edition) for mobile and embedded devices.
+            •  In 2010, Oracle Corporation acquired Sun Microsystems, becoming the steward of the Java platform.
+            Java's journey from its inception to becoming a widely adopted programming language has been impressive. Its platform independence, robustness, and extensive ecosystem have made it a preferred choice for developing diverse applications. Java's name, inspired by coffee and an Indonesian island, adds a touch of uniqueness to its identity, while its impact extends beyond programming, enriching professional and social realms.
+            </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        
+        <div class="blog">
+          <h2 class="blog-title">Flask</h2>
+          <p class="posted-text">
+            Flask is a lightweight web framework for Python that was created by Armin Ronacher and first released in 2010. It is known for its simplicity, flexibility, and ease of use, making it a popular choice among developers for building small to medium-sized web applications.
+            Besides its usage in web development, the term "flask" has diverse applications across various professions. In chemistry, a flask refers to a container used for holding and measuring liquid substances. In the culinary world, a flask can also refer to a small container used for carrying alcoholic beverages discreetly.
+            Flask's journey from an April Fool's joke to a widely adopted web framework showcases its simplicity and effectiveness for building web applications. Although the term "flask" has connections to laboratory equipment and other professions, its usage in the context of Flask as a web framework is specific to its role in web development.
+            Key Milestones:
+            •  Armin Ronacher developed Flask as an April Fool's joke, initially presenting it as an April Fool's project called "Flask of Fun." However, due to its positive reception, he continued to develop it, and Flask quickly gained popularity.
+            •  Flask follows the principles of simplicity and minimalism, providing developers with the core functionalities needed for web development, while allowing flexibility for customization and extensions through its modular design.
+            •  Flask is based on the WSGI (Web Server Gateway Interface) specification, which allows it to work with various web servers and frameworks.
+            </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+
+<!-- footer section  -->
+<footer class="footer"> created by <span> mr. Alemayehhu</span> | all rights reserved! </footer>
+
+<!-- custom css file link -->
+<script src="../static/js/script.js"></script>
+</body>
+</html>

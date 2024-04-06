@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="../static/styles.css">
+    <title>{% block title %}Add Blogs {% endblock %}</title>
+</head>
+
+<body>
+
+<!-- custom cursors -->
+<div id="menu-bars" class="fas fa-bars"></div>
+
+<!-- header section starts -->
+<header>
+   
+  <div class="user">
+      <img src="../static/images/Aaalex.png" alt="">
+      <a href="#" class="logo"><span>Alem</span>Ayehu</a>
+  </div>
+
+  <nav class="navbar">
+    <a href="./layout.html#home">home</a>
+    <a href="./layout.html#about">about</a>
+    <a href="./layout.html#service">service</a>
+    <a href="./layout.html#experience">experience</a>
+    <a href="./layout.html#portfolio">portfolio</a>
+    <a href="./layout.html#contact">contact</a>
+  </nav>
+
+  <div class="social_icon">
+      <span><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></span>
+      <span><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></span>
+      <span><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></span>
+      <span><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></span>
+  </div>
+</header>
+<!-- header section ends     -->
+
+  <!-- add form section starts -->
+  <section class="add-form-container">
+    <div class="add-form">
+      <div class="User_inf"><h1>Blogger's Page</h1> </div>
+        <form action="" method="POST">
+          <div class="User_inf">
+            <label for="firstName">First Name</label><br>
+            <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Enter your name here">
+          </div>
+          <div class="User_inf">
+            <label for="email">Your Email</label><br>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email here">
+        </div>       
+          
+        <div class="User_inf">
+          <label for="Blog_title">Blog Heading</label><br>
+          <input type="text" class="form-control" id="Blog" name="Blog" placeholder="Enter Blog's title">
+      </div>
+        
+      <div class="User_inf">
+        <label for="Blog_Post">Write Your Blog Here</label><br>
+        <textarea name="cont-blog" class="posted-text" placeholder = "Write Your Blog text Here" cols="" rows=""></textarea>
+      </div>
+      </form>
+    </div>
+    <div class="btnCont">
+      <button type="submit" class="btn btn-primary"><a href="../templates/Blog.html">Post this Blog</a></button>
+    </div>
+  </section>
+  <!-- add form section ends -->
+
+<!-- footer section  -->
+<footer class="footer"> created by <span> mr. Alemayehu GebreMichael</span> | all rights reserved! </footer>
+
+<!-- custom css file link -->
+<script src="../static/js/script.js"></script>
+</body>
+
+</html>
